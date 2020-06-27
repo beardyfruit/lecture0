@@ -1,0 +1,41 @@
+table {
+	text-align: center;
+	font-family: Helvetica Neue, sans-serif;
+	border: 1.5px solid black;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 4px;
+}
+
+th {
+	background-color: lightgrey;
+}
+
+ol {
+	background-color: teal;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	padding: 50px;
+}
+
+h1 {
+	font-family: Helvetica Neue;
+	font-size: 100pt;
+	background-color: powderblue;
+	padding: 0;
+	margin: 0;
+}
+
+#merge {
+	color: orange;
+	font-weight: bold;
+} 
+
+.firstname{
+	font-weight: bold;
+}

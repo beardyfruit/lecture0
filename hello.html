@@ -2,14 +2,58 @@
 <html>
 	<head>
 		<title>My Webpage!</title>
+		<style>
+			h2 {
+				color: dodgerblue;
+				text-align: right;
+			}
+		</style>
+		<link rel="stylesheet" href="styles.css">
+
 	</head>
 	<body>
-		Hello, world!
-		Hello, again!
-		Goodbye to a friend.
-		Testing this with a new email.
+		<h1 style="color:hotpink; text-align:center;">Hello, world!</h1>
+		<h2>Hello, again!</h2>
+		<h3>Goodbye to a friend.</h3>
+		<h4>Testing this with a new email.</h4>
 		<article>
-			Will this merge?
+			Will this <span id="merge">merge?</span>
+			<br>
+			This is an <strong>unordered</strong> list:
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3rd item</li>
+			</ul>
+			This is an ordered list:
+			<ol>
+				<li>1st item</li>
+				<li>2nd item</li>
+			</ol>
+			<img src="https://assets.foxdcg.com/dpp-uploaded/images/bobs-burgers/BB_101L.jpg" width="60%">
+			<table>
+					<tr>
+						<th class="firstname">First Name</th>
+						<th>Last Name</th>
+						<th>Years in Office</th>
+					</tr>
+					<tr>
+						<td class="firstname">George</td>
+						<td>Washington</td>
+						<td>1789-1797</td>
+					</tr>
+					<tr>
+						<td class="firstname">Thomas</td>
+						<td>Jefferson</td>
+						<td>1801-1809</td>
+					</tr>
+				</table>
+		</article>
+		<article>
+			<form>
+				<input type="text" placeholder="Full Name" name="name">
+				<button>Submit!</button>
+			</form>
 		</article>
 	</body>
 </html>
